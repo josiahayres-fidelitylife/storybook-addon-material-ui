@@ -1,23 +1,23 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/721efbed8ff544c2adbd996108e84165)](https://app.codacy.com/gh/react-theming/storybook-addon-material-ui?utm_source=github.com&utm_medium=referral&utm_content=react-theming/storybook-addon-material-ui&utm_campaign=Badge_Grade)
-[![npm version](https://badge.fury.io/js/storybook-addon-material-ui.svg)](https://badge.fury.io/js/storybook-addon-material-ui)
-[![Live demo](https://img.shields.io/badge/Live%20Demo-%20Storybook-brightgreen.svg)](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui%2Fmaterial-panel)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/721efbed8ff544c2adbd996108e84165)](https://app.codacy.com/gh/react-theming/storybook-addon-material-ui5?utm_source=github.com&utm_medium=referral&utm_content=react-theming/storybook-addon-material-ui5&utm_campaign=Badge_Grade)
+[![npm version](https://badge.fury.io/js/storybook-addon-material-ui5.svg)](https://badge.fury.io/js/storybook-addon-material-ui5)
+[![Live demo](https://img.shields.io/badge/Live%20Demo-%20Storybook-brightgreen.svg)](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui5%2Fmaterial-panel)
 
 #  Storybook Addon Material-UI
 
 
-[<img src="https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui/master/docs/logos/Storybook.png" align="left" class="logo" height="60" title="Storybook Addon" alt="Storybook Addon" />](https://storybooks.js.org/docs/react-storybook/addons/addon-gallery/)
-[<img src="https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui/version-1/docs/logos/material-ui.png" align="left" class="logo" height="60" title="Material UI" alt="Storybook Addon" />](https://material-ui.com/styles/advanced/#theming)
+[<img src="https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui5/master/docs/logos/Storybook.png" align="left" class="logo" height="60" title="Storybook Addon" alt="Storybook Addon" />](https://storybooks.js.org/docs/react-storybook/addons/addon-gallery/)
+[<img src="https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui5/version-1/docs/logos/material-ui.png" align="left" class="logo" height="60" title="Material UI" alt="Storybook Addon" />](https://material-ui.com/styles/advanced/#theming)
 
 Provides development environment which helps creating [Material-UI Components](http://www.material-ui.com/). This is addon for [React Storybook](https://github.com/storybooks/react-storybook) which wraps your components into MuiThemeProvider. This accelerates and simplifies the [development](#getting-started-bookmark_tabs) process for Material-UI based applications.
 
-You can use this [project's demo page](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui%2Fmaterial-panel) to discover `Material-UI Theme Settings` for any component and  create your `own new themes` right online. But to take [full advantage](#features-dizzy) of this project [run it locally](#quick-start) in your work environment.
+You can use this [project's demo page](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui5%2Fmaterial-panel) to discover `Material-UI Theme Settings` for any component and  create your `own new themes` right online. But to take [full advantage](#features-dizzy) of this project [run it locally](#quick-start) in your work environment.
 
-[![screen1](https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui/master/docs/WatchMe.gif)](https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui/master/docs/WatchMe.gif)
+[![screen1](https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui5/master/docs/WatchMe.gif)](https://raw.githubusercontent.com/react-theming/storybook-addon-material-ui5/master/docs/WatchMe.gif)
 
 
 ## Features
 
-[![Live demo](https://img.shields.io/badge/Live%20Demo-%20Storybook-brightgreen.svg)](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui%2Fmaterial-panel)
+[![Live demo](https://img.shields.io/badge/Live%20Demo-%20Storybook-brightgreen.svg)](https://sm-react.github.io/storybook-boilerplate/?theme-ind=0&theme-sidebar=false&theme-full=false&knob-Title=Welcome%20to%20React-Theming&knob-Subtitle=Storybook%20Boilerplate%20Project&knob-Label1=Hello%20Button&knob-Label2=Hello%20Button&selectedKind=Material-UI&selectedStory=Components&full=0&down=1&left=1&panelRight=0&downPanel=sm%2Fstorybook-addon-material-ui5%2Fmaterial-panel)
 
 - Wrapped in the theme provider. Just start to develop with base light theme.
 - Injected TapEvent Plugin. Test on mobile devices.
@@ -31,14 +31,14 @@ You can use this [project's demo page](https://sm-react.github.io/storybook-boil
 
 ## Quick Start
 
-In order to quick start with the latest `storybook-addon-material-ui` you can check out [create-material-ui-app](https://github.com/react-theming/create-material-ui-app)
+In order to quick start with the latest `storybook-addon-material-ui5` you can check out [create-material-ui-app](https://github.com/react-theming/create-material-ui-app)
 
 It contains the working setup with:
 
 - create-react-app
 - Storybook
 - Material-UI
-- storybook-addon-material-ui
+- storybook-addon-material-ui5
 
 ---
 
@@ -47,12 +47,12 @@ It contains the working setup with:
 First, install the addon
 
 ```shell
-npm i storybook-addon-material-ui --save-dev
+npm i storybook-addon-material-ui5 --save-dev
 ```
 
 ### Storybook 6.1
 
-Add `storybook-addon-material-ui` to the storybook addons:
+Add `storybook-addon-material-ui5` to the storybook addons:
 
 ```js
 //.storybook/main.js
@@ -60,7 +60,7 @@ Add `storybook-addon-material-ui` to the storybook addons:
 module.exports = {
   stories: ['../stories/**/*.stories.(js|mdx)'],
   addons: [
-    'storybook-addon-material-ui'
+    'storybook-addon-material-ui5'
   ],
 };
 ```
@@ -70,7 +70,7 @@ Add the decorator to storybook preview:
 ```js
 //.storybook/preview.js
 
-import { muiTheme } from 'storybook-addon-material-ui'
+import { muiTheme } from 'storybook-addon-material-ui5'
 
 export const decorators = [
 	muiTheme()
@@ -81,7 +81,7 @@ export const decorators = [
 ```js
 //.storybook/preview.js
 
-import { muiTheme } from 'storybook-addon-material-ui'
+import { muiTheme } from 'storybook-addon-material-ui5'
 
 // Create your own theme like this.
 // Note: you can specify theme name in `themeName` field. Otherwise it will be displayed by the number.
@@ -109,7 +109,7 @@ or even import from elsewhere
 ```js
 //.storybook/preview.js
 
-import { muiTheme } from 'storybook-addon-material-ui'
+import { muiTheme } from 'storybook-addon-material-ui5'
 
 import theme1 from './src/theme/theme1'
 import theme2 from './src/theme/theme2'
@@ -120,13 +120,33 @@ export const decorators = [
 
 ```
 
+If you are using custom, [self hosted fonts](https://mui.com/material-ui/customization/typography/#self-hosted-fonts) and you define them using the MuiCssBaseline component, then you'll want to set the withCssBaseline option to true.
+
+If you want to use the emotion provider to get the theme to work with storybook and MUI5, you'll need to install `emotion-theming` as a peer dependency in your projecct.
+
+```js
+import { muiTheme } from 'storybook-addon-material-ui5'
+
+import theme1 from './src/theme/theme1'
+import theme2 from './src/theme/theme2'
+
+const muiAddonOptions = {
+    withCssBaseline: true, 
+    withEmotionProvider: true
+}
+
+export const decorators = [
+	muiTheme([theme1,theme2], muiAddonOptions)
+];
+```
+
 ### Storybook 5 (and older versions)
 Now, write your stories with Material-UI Addon. By default your stories will be provided with [`Light Base Theme`](https://github.com/callemall/material-ui/blob/master/src/styles/baseThemes/lightBaseTheme.js) and [`Dark Base Theme`](https://github.com/callemall/material-ui/blob/master/src/styles/baseThemes/darkBaseTheme.js)
 
 ```js
 import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
-import {muiTheme} from 'storybook-addon-material-ui';
+import {muiTheme} from 'storybook-addon-material-ui5';
 
 // Import some examples from react-theming https://github.com/react-theming/react-theme-provider/blob/master/example/
 import CardExampleControlled from '../CardExampleControlled.jsx';
@@ -154,7 +174,7 @@ storiesOf('Material-UI', module)
 import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
 
-import {muiTheme} from 'storybook-addon-material-ui';
+import {muiTheme} from 'storybook-addon-material-ui5';
 
 import CardExampleControlled from '../CardExampleControlled.jsx';
 import RaisedButtonExampleSimple from '../RaisedButtonExampleSimple.jsx';
