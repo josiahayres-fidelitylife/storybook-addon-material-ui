@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider, StyledEngineProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 
 import { ThemeProvider as Emotion10ThemeProvider } from 'emotion-theming';
