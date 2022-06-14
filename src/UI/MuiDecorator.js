@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, StyledEngineProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 
 import { ThemeProvider as Emotion10ThemeProvider } from 'emotion-theming';
@@ -17,14 +17,27 @@ const currentTheme = data => {
 };
 
 // eslint-disable-next-line react/prop-types
-const MuiDecorator = ({ data, story }) => (
+const MuiDecorator = ({ data, story }) => { 
+  if (data.withEmotionProvider){
+    return (
   <Emotion10ThemeProvider injectFirst theme={currentTheme(data)}>
+    <ThemeProvider theme={currentTheme(data)}>
+      {data.withCssBaseline && <CssBaseline />}
+      <div>{story}</div>
+    </ThemeProvider>
+  </Emotion10ThemeProvider>
+)}
+  return (
+  <StyledEngineProvider injectFirst>
     <ThemeProvider theme={currentTheme(data)}>
       {data.withCssBaseline && <CssBaseline />}
       <div>{story}</div>
     </ThemeProvider>
   </StyledEngineProvider>
 );
+
+// eslint-disable-next-line react/prop-types
+const MuiDecoratorWithEmotion = ({ data, story }) => 
 
 export default withChannel({ EVENT_ID_INIT, EVENT_ID_DATA, EVENT_ID_BACK })(
   MuiDecorator
