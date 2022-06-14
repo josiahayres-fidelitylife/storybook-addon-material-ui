@@ -20,22 +20,23 @@ const currentTheme = data => {
 const MuiDecorator = ({ data, story }) => { 
   if (data.withEmotionProvider){
     return (
-  <Emotion10ThemeProvider injectFirst theme={currentTheme(data)}>
-    <ThemeProvider theme={currentTheme(data)}>
-      {data.withCssBaseline && <CssBaseline />}
-      <div>{story}</div>
-    </ThemeProvider>
-  </Emotion10ThemeProvider>
-)}
+      <Emotion10ThemeProvider injectFirst theme={currentTheme(data)}>
+        <ThemeProvider theme={currentTheme(data)}>
+          {data.withCssBaseline && <CssBaseline />}
+          <div>{story}</div>
+        </ThemeProvider>
+      </Emotion10ThemeProvider>
+    )
+  }
   return (
-  <StyledEngineProvider injectFirst>
-    <ThemeProvider theme={currentTheme(data)}>
-      {data.withCssBaseline && <CssBaseline />}
-      <div>{story}</div>
-    </ThemeProvider>
-  </StyledEngineProvider>
-);
-
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={currentTheme(data)}>
+        {data.withCssBaseline && <CssBaseline />}
+        <div>{story}</div>
+      </ThemeProvider>
+    </StyledEngineProvider>
+  );
+}
 // eslint-disable-next-line react/prop-types
 const MuiDecoratorWithEmotion = ({ data, story }) => 
 
