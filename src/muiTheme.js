@@ -20,7 +20,7 @@ const darkBaseTheme = createTheme({
 lightBaseTheme.themeName = 'Light Theme';
 darkBaseTheme.themeName = 'Dark Theme';
 
-export function muiTheme(themes, config = {withCssBaseline: false}) {
+export function muiTheme(themes, config = {withCssBaseline: false, withEmotionProvider: false}) {
   const store = createStore(
     EVENT_ID_INIT,
     EVENT_ID_DATA,
@@ -60,7 +60,7 @@ export function muiTheme(themes, config = {withCssBaseline: false}) {
     return (
       <MuiDecorator
         story={storyItem}
-        initData={{ themes: themesInitList, themeInd: 0, withCssBaseline: config.withCssBaseline }}
+        initData={{ themes: themesInitList, themeInd: 0, withCssBaseline: config.withCssBaseline, withEmotionProvider: config.withEmotionProvider }}
       />
     );
   };
