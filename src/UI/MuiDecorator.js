@@ -20,7 +20,7 @@ const currentTheme = data => {
 const MuiDecorator = ({ data, story }) => (
   <Emotion10ThemeProvider injectFirst theme={currentTheme(data)}>
     <ThemeProvider theme={currentTheme(data)}>
-      <CssBaseline />
+      {data.withCssBaseline && <CssBaseline />}
       <div>{story}</div>
     </ThemeProvider>
   </StyledEngineProvider>
